@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/jeremy/.claude -type f -o -type d | head -50)",
+      "Read(//Users/jeremy/.claude/**)",
+      "Bash(ls -la /Users/jeremy/.claude/)",
+      "Bash(find /Users/jeremy -maxdepth 3 -name \"CLAUDE.md\" 2>/dev/null)",
+      "Read(//Users/jeremy/**)",
+      "Bash(mkdir -p /Users/jeremy/workspace/interview_practice/.claude/skills/system-design-interview/references)",
+      "Bash(gh repo *)",
+      "Bash(git init *)",
+      "Bash(git remote *)"
+    ],
+    "additionalDirectories": [
+      "/Users/jeremy/workspace/interview_practice/.claude/skills/system-design-interview"
+    ]
+  }
+}
